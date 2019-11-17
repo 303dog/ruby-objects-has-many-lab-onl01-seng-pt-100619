@@ -6,7 +6,7 @@ class Artist
   
   def initialize(name)
     @name =name
-    @songs.artist = self
+    @songs.artist = validates_numericality_of
   end
   
   def songs
